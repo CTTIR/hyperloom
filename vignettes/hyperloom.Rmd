@@ -1,0 +1,87 @@
+---
+title: "CTTIR Hyperspectral Imaging Suite"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{CTTIR Hyperspectral Imaging Suite}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+`hyperloom` groups four complementary packages. Use `cuvis.r` for Cubert CUVIS
+recordings, `tivis.r` for TIVITA recordings, `hyperspectR` for processing and
+analysis, and `hyperspectaculR` for spectral visualizations. The metapackage
+installs these members and offers a small inventory API.
+
+## Install and inspect
+
+```{r install, eval=FALSE}
+install.packages("remotes")
+remotes::install_github("CTTIR/hyperloom", dependencies = NA)
+```
+
+The member packages are required dependencies. Their optional modelling
+backends and the vendor SDK are configured separately according to the member
+documentation. The metapackage does not download instruments, SDKs, or datasets
+when loaded.
+
+```{r inventory}
+hyperloom::hyperloom_packages()
+hyperloom::hyperloom_status()
+```
+
+`hyperloom_status()` reports installed versions in library search order. Save
+the report alongside `sessionInfo()` and the project dependency lockfile to
+record which software was available. A version report does not establish that
+an instrument backend or scientific method has been validated.
+
+## Work with explicit namespaces
+
+The following synthetic example exercises `hyperspectR` without clinical data,
+files from an instrument, or a vendor SDK:
+
+```{r synthetic-cube}
+cube <- hyperspectR::hs_example_cube()
+hyperspectR::hs_plot_rgb(cube)
+```
+
+Use the reading functions documented in `tivis.r` and `cuvis.r` for real
+recordings. Inspect wavelength, geometry, calibration, and acquisition metadata
+before passing data between packages. The suite installation does not replace
+those checks or promise arbitrary object compatibility.
+
+`hyperspectaculR` provides its own visualization interfaces and synthetic
+examples:
+
+```{r visualisation}
+visual_cube <- hyperspectaculR::hsa_demo_cube()
+hyperspectaculR::hsa_fusion(visual_cube)
+```
+
+These examples show software usage rather than validated physiological or
+clinical inference.
+
+## Attach all members when useful
+
+```{r attach, eval=FALSE}
+library(hyperloom)
+```
+
+Attaching `hyperloom` attaches all four members using R's ordinary `Depends`
+mechanism. Member startup hooks and messages still apply. Using
+`hyperloom::hyperloom_status()` instead reads installation metadata without
+attaching the suite or initializing the CUVIS SDK. Explicit namespaces make
+scripts easier to read when multiple packages export similarly named functions.
+
+## Instrument setup and licenses
+
+`cuvis.r` can install without the Cubert SDK in stub mode. Reading and processing
+vendor recordings requires the SDK and a correctly configured installation;
+consult [cuvis.r](https://github.com/CTTIR/cuvis.r). TIVITA file reading is handled
+by [tivis.r](https://github.com/CTTIR/tivis.r).
+
+`hyperloom` is MIT licensed. Each member package and vendor component keeps its
+own license and installation requirements.

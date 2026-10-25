@@ -1,0 +1,18 @@
+destination: _site
+template:
+  package: themakR
+development:
+  mode: auto
+home:
+  title: CTTIR Hyperspectral Imaging Suite
+reference:
+  - title: Suite inventory
+    contents:
+      - hyperloom_packages
+      - hyperloom_status
+      - hyperloom-package
+articles:
+  - title: Get started
+    navbar: ~
+    contents:
+      - hyperloom
