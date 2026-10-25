@@ -1,4 +1,4 @@
-# hyperloom
+# hyperloom <img src="man/figures/logo.png" align="right" width="120" height="139" alt="hyperloom logo" />
 
 **CTTIR Hyperspectral Imaging Suite**
 
@@ -48,3 +48,8 @@ instruments or install software when loaded.
 
 `hyperloom` is licensed under the [MIT license](LICENSE.md). Member packages
 and external components retain their own licenses.
+
+## Branding
+
+Editable R sources and regeneration instructions are in
+[tools/branding](https://github.com/CTTIR/hyperloom/tree/main/tools/branding).

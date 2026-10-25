@@ -11,3 +11,5 @@
 ^README\.html$
 ^.*\.Rcheck$
 ^.*\.tar\.gz$
+^tools/branding$
+^pkgdown$
