@@ -1,42 +1,31 @@
 Package: hyperloom
 Type: Package
 Title: CTTIR Hyperspectral Imaging Suite
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("R.", "Heller", email = "raban.heller@charite.de",
     role = c("aut", "cre", "cph"),
     comment = c(ORCID = "0000-0001-8006-9742"))
-Description: Installs and attaches the CTTIR hyperspectral imaging suite:
-    'hyperspectR' for processing and analysis, 'hyperspectaculR' for
-    visualization, 'cuvis.r' for Cubert CUVIS recordings, and 'tivis.r' for
-    TIVITA recordings. Provides a suite membership inventory and installed
-    version report. Instrument software, calibration, and analysis methods
-    remain the responsibility of the individual packages.
+Description: An installation framework for the CTTIR hyperspectral imaging
+    suite. Declares 'hyperspectR', 'hyperspectaculR', 'cuvis.r', and 'tivis.r'
+    as required dependencies so that package installers resolve and install
+    the suite and its required R dependencies. Provides no analysis functions
+    and does not attach the member packages. Instrument software and optional
+    backends are configured through the individual packages.
 License: MIT + file LICENSE
 URL: https://github.com/CTTIR/hyperloom
 BugReports: https://github.com/CTTIR/hyperloom/issues
 Depends:
-    R (>= 4.1.0),
+    R (>= 4.1.0)
+Imports:
     hyperspectR,
     hyperspectaculR,
     cuvis.r,
     tivis.r
-Imports:
-    utils
-Suggests:
-    covr,
-    knitr,
-    rmarkdown,
-    testthat (>= 3.2.0)
 Remotes:
     CTTIR/hyperspectR,
     CTTIR/hyperspectaculR,
     CTTIR/cuvis.r,
     CTTIR/tivis.r
 Additional_repositories: https://cttir.r-universe.dev
-Config/Needs/website: CTTIR/themakR
-Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US
-Roxygen: list(markdown = TRUE)
-VignetteBuilder: knitr
-Config/roxygen2/version: 8.0.0
