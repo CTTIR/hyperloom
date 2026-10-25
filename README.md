@@ -1,4 +1,4 @@
-# hyperloom <picture class="cttir-readme-logo"><source class="cttir-logo-dark-source" media="(prefers-color-scheme: dark)" srcset="man/figures/logo-with-name-dark.png" /><img src="man/figures/logo-with-name.png" align="right" alt="hyperloom logo" width="120" height="155" /></picture>
+# hyperloom <picture class="cttir-readme-logo"><source class="cttir-logo-dark-source" media="(prefers-color-scheme: dark)" srcset="man/figures/logo-with-name-dark.png" /><img src="man/figures/logo-with-name.png" align="right" alt="hyperloom logo" width="120" height="139" /></picture>
 
 **CTTIR Hyperspectral Imaging Suite**
 
