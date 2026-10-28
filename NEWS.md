@@ -1,5 +1,9 @@
 # hyperloom 0.1.1
 
+* Standardize the named v5 package logo across README, documentation pages
+  and available application headers, with matching light and dark artwork.
+
+
 * Simplify the metapackage to an installation-only framework.
 * Declare the four suite members as required installation dependencies without
   attaching them when the metapackage is loaded.
