@@ -49,3 +49,13 @@ These files are copied without regenerating font outlines. Additional platform
 icon sizes continue to use the bundled R motif renderer. `assets.csv` records
 the intended variant for each destination; display logos use `lockup`, while
 favicons and explicitly compact symbols use artwork-only variants.
+
+## Suite logo
+
+A suite package (`kind` "Suite" in `packages.csv`) keeps its topic colours
+but carries the CTTIR gold rim shared with cttiR and the institution logo
+(#D4AF37 on dark, #9A7B26 on light; greyscale unchanged). The palette applies
+it when the `cttir.suite` option is set. `render.R` recolours the approved v5
+master element by element from the bundled renderer, so the artwork and the
+supplied name outlines are kept, and draws the icons directly. It stops if
+the master no longer matches the bundled renderer.

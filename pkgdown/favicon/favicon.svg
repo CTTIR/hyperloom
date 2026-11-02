@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="498pt" viewBox="0 0 432 498">
-<path fill-rule="nonzero" fill="rgb(9.803922%, 20.392157%, 26.27451%)" fill-opacity="1" stroke-width="4.125" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 44.705882%, 69.803922%)" stroke-opacity="1" stroke-miterlimit="10" d="M 216 9.960938 L 423.359375 129.480469 L 423.359375 368.519531 L 216 488.039062 L 8.640625 368.519531 L 8.640625 129.480469 Z M 216 9.960938 "/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="432" height="498" viewBox="0 0 432 498">
+<path fill-rule="nonzero" fill="rgb(9.803922%, 20.392157%, 26.27451%)" fill-opacity="1" stroke-width="4.125" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(83.137255%, 68.627451%, 21.568627%)" stroke-opacity="1" stroke-miterlimit="10" d="M 216 9.960938 L 423.359375 129.480469 L 423.359375 368.519531 L 216 488.039062 L 8.640625 368.519531 L 8.640625 129.480469 Z M 216 9.960938 "/>
 <path fill-rule="nonzero" fill="rgb(1.176471%, 3.921569%, 7.058824%)" fill-opacity="0.25098" d="M 83.703125 188.65625 L 220.5625 256.96875 L 220.5625 374.625 L 83.703125 306.308594 Z M 83.703125 188.65625 "/>
 <path fill-rule="nonzero" fill="rgb(4.705882%, 24.313725%, 38.431373%)" fill-opacity="1" d="M 79.140625 180.683594 L 216 249 L 216 366.652344 L 79.140625 298.339844 Z M 79.140625 180.683594 "/>
 <path fill-rule="nonzero" fill="rgb(1.176471%, 3.921569%, 7.058824%)" fill-opacity="0.25098" d="M 220.5625 256.96875 L 357.417969 188.65625 L 357.417969 306.308594 L 220.5625 374.625 Z M 220.5625 256.96875 "/>

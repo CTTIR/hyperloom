@@ -1,5 +1,8 @@
 # hyperloom 0.1.1
 
+* The logo marks the suite with the CTTIR gold border it shares with cttiR,
+  while keeping its topic colours.
+
 * Standardize the named v5 package logo across README, documentation pages
   and available application headers, with matching light and dark artwork.
 
