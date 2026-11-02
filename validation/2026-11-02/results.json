@@ -1,0 +1,76 @@
+{
+  "repository": "CTTIR/hyperloom",
+  "version": "0.1.2",
+  "baseline_head": "a474ff0be5c437cda02e0a474892db9b15b4fedf",
+  "original_head_preserved": "bfd38304aa1e89e783a904172070511d2485868f",
+  "original_files_preserved": 63,
+  "published_assets_preserved": 53,
+  "local_readiness": "GitHub installation-only package; CRAN distribution not ready",
+  "checks": {
+    "normal": "OK",
+    "cran": "1 WARNING"
+  },
+  "real_public_install": true,
+  "common_dependencies_reused_readonly": true,
+  "contract_pass": true,
+  "counterfactual_failures_detected": 2,
+  "quickstart": "30x30x61 finite cube; 900 pixel RGB plot",
+  "runtime": "R 4.6.1 macOS arm64 27.0.1",
+  "candidate_clean_install": true,
+  "artifact": {
+    "path": "final2-normal/hyperloom_0.1.2.tar.gz",
+    "sha256": "045cd8a94a8f057bb78d0854709502e766f9e2b41b3afaabf9208ab64a156a7a",
+    "bytes": 675332,
+    "files": 34
+  },
+  "manual": {
+    "pages": 3,
+    "visually_reviewed": true
+  },
+  "members": {
+    "hyperspectR": {
+      "Package": "hyperspectR",
+      "Version": "0.2.0.9000",
+      "RemoteType": "github",
+      "RemoteUsername": "CTTIR",
+      "RemoteRepo": "hyperspectR",
+      "RemoteSha": "09170d23b7c4191e550e2f8eb78868e8d2c3a087"
+    },
+    "hyperspectaculR": {
+      "Package": "hyperspectaculR",
+      "Version": "0.2.0",
+      "RemoteType": "github",
+      "RemoteUsername": "CTTIR",
+      "RemoteRepo": "hyperspectaculR",
+      "RemoteSha": "eb3067ad4e2101db0b1f2d820cf4d9d1715d9f5f"
+    },
+    "cuvis.r": {
+      "Package": "cuvis.r",
+      "Version": "0.1.0",
+      "RemoteType": "github",
+      "RemoteUsername": "CTTIR",
+      "RemoteRepo": "cuvis.r",
+      "RemoteSha": "89bb9c2a0b7480414e375db4a89097143e32c846"
+    },
+    "tivis.r": {
+      "Package": "tivis.r",
+      "Version": "0.1.0",
+      "RemoteType": "github",
+      "RemoteUsername": "CTTIR",
+      "RemoteRepo": "tivis.r",
+      "RemoteSha": "1a28d08f8a24fbeaed0e353ba81aa20f5f36831a"
+    }
+  },
+  "dependabot_alerts": [],
+  "limitations": [
+    "No candidate hosted CI",
+    "R 4.1 and other platforms not locally exercised",
+    "No SDK or hardware qualification",
+    "Common CRAN dependencies reused; no clean-machine installation claim",
+    "Floating GitHub member revisions require pinning for analysis reproducibility",
+    "CRAN incoming warning retained; hyperspectaculR absent from R-universe catalogue",
+    "No comprehensive member/native CVE audit",
+    "Shared optional-Bioc CI bug fixed in separate local unpublished .github branch"
+  ],
+  "published": false
+}

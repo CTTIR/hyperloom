@@ -1,0 +1,34 @@
+hyperspectR 0.2.0.9000 09170d23b7c4191e550e2f8eb78868e8d2c3a087
+hyperspectaculR 0.2.0 eb3067ad4e2101db0b1f2d820cf4d9d1715d9f5f
+cuvis.r 0.1.0 89bb9c2a0b7480414e375db4a89097143e32c846
+tivis.r 0.1.0 1a28d08f8a24fbeaed0e353ba81aa20f5f36831a
+README first-use PASS: finite 30 x 30 x 61 cube, 430-910 nm, RGB plot with 900 pixels.
+Plot: [audit-evidence]/final-use/readme-quickstart-rgb.png
+Member path: [audit-evidence]/library/hyperspectR
+Plot title: RGB (R=638 G=550 B=462 nm)
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin27.0.0
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib
+LAPACK: /opt/homebrew/Cellar/r/4.6.1_1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+loaded via a namespace (and not attached):
+ [1] labeling_0.4.3         RColorBrewer_1.1-3     R6_2.6.1
+ [4] tidyselect_1.2.1       farver_2.1.2           magrittr_2.0.5
+ [7] gtable_0.3.6           glue_1.8.1             tibble_3.3.1
+[10] pkgconfig_2.0.3        dplyr_1.2.1            generics_0.1.4
+[13] lifecycle_1.0.5        ggplot2_4.0.3          cli_3.6.6
+[16] S7_0.2.2               hyperspectR_0.2.0.9000 scales_1.4.0
+[19] grid_4.6.1             vctrs_0.7.3            withr_3.0.3
+[22] compiler_4.6.1         pillar_1.11.1          rlang_1.3.0

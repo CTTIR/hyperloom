@@ -1,0 +1,50 @@
+$hyperspectR
+Version: 0.2.0.9000
+RemoteSha: 09170d23b7c4191e550e2f8eb78868e8d2c3a087
+
+-- File: [audit-evidence]/library/hyperspectR/Meta/package.rds
+-- Fields read: Version, RemoteSha
+
+$hyperspectaculR
+Version: 0.2.0
+RemoteSha: eb3067ad4e2101db0b1f2d820cf4d9d1715d9f5f
+
+-- File: [audit-evidence]/library/hyperspectaculR/Meta/package.rds
+-- Fields read: Version, RemoteSha
+
+$cuvis.r
+Version: 0.1.0
+RemoteSha: 89bb9c2a0b7480414e375db4a89097143e32c846
+
+-- File: [audit-evidence]/library/cuvis.r/Meta/package.rds
+-- Fields read: Version, RemoteSha
+
+$tivis.r
+Version: 0.1.0
+RemoteSha: 1a28d08f8a24fbeaed0e353ba81aa20f5f36831a
+
+-- File: [audit-evidence]/library/tivis.r/Meta/package.rds
+-- Fields read: Version, RemoteSha
+
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin27.0.0
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib
+LAPACK: /opt/homebrew/Cellar/r/4.6.1_1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+other attached packages:
+[1] hyperloom_0.1.2
+
+loaded via a namespace (and not attached):
+[1] compiler_4.6.1
