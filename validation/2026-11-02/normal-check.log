@@ -1,0 +1,49 @@
+* using log directory ‘[audit-evidence]/final2-normal/hyperloom.Rcheck’
+* using R version 4.6.1 (2026-06-24)
+* using platform: aarch64-apple-darwin27.0.0
+* R was compiled by
+    Apple clang version 21.0.0 (clang-2100.3.34.2)
+    GNU Fortran (Homebrew GCC 16.2.0) 16.2.0
+* running under: macOS Golden Gate 27.0.1
+* using session charset: UTF-8
+* current time: 2026-11-02 18:51:18 UTC
+* checking for file ‘hyperloom/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘hyperloom’ version ‘0.1.2’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘hyperloom’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... NONE
+* checking for unstated dependencies in ‘tests’ ... OK
+* checking tests ... OK
+  Running ‘metapackage.R’
+* checking PDF version of manual ... OK
+* DONE
+Status: OK

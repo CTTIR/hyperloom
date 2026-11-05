@@ -1,3 +1,12 @@
+# hyperloom 0.1.2 (unreleased)
+
+* Check the installed metapackage contract during R CMD check: all four
+  members must be discoverable, while loading hyperloom attaches only itself
+  and activates no member namespace or native library.
+* Document controlled dependency updates, version/revision recording, and
+  the distinction between a no-SDK installation and CUVIS SDK operations.
+* Use a license link that remains valid in packaged documentation.
+
 # hyperloom 0.1.1
 
 * The logo marks the suite with the CTTIR gold border it shares with cttiR,

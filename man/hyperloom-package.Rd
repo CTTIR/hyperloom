@@ -15,9 +15,25 @@ The package installer resolves required dependencies recursively using the
 repository declarations in the package metadata. Use each member package
 directly after installation; loading \pkg{hyperloom} is not required.
 
-The Cubert CUVIS SDK, optional backends, compilers, and system libraries are
-configured separately as described by their respective packages. Each member
-package and external component retains its own license.
+To retain installed versions that satisfy declared requirements while installing
+missing dependencies, pass \code{upgrade = "never"} to the installer.
+An installed dependency that is too old must then be updated explicitly.
+Unless \code{R_REMOTES_UPGRADE} sets another policy, the default asks
+interactively and permits updates non-interactively.
+GitHub members follow their default branches; pinning the metapackage alone
+does not pin them. Record each member's \code{Version} and, when present,
+\code{RemoteSha} with \code{utils::packageDescription()} for reproducibility.
+
+The Cubert CUVIS SDK is not required for a stub installation of \pkg{cuvis.r}.
+SDK-backed operations require separate SDK installation, configuration and
+reinstallation of that member. Optional backends, compilers and system
+libraries are configured as described by the individual packages. Each member
+and external component retains its own license.
+
+GitHub installation is the tested distribution route. The declared R minimum
+is 4.1.0; the maintenance candidate was tested on R 4.6.1, macOS arm64.
+CRAN incoming checks report the non-CRAN members and repository metadata;
+a successful GitHub installation does not establish CRAN submission readiness.
 }
 \seealso{
 \url{https://github.com/CTTIR/hyperloom}

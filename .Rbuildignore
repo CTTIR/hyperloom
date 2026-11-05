@@ -13,3 +13,5 @@
 ^.*\.tar\.gz$
 ^tools/branding$
 ^pkgdown$
+^plans$
+^validation$
