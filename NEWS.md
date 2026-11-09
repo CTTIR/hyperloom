@@ -1,4 +1,13 @@
-# hyperloom 0.1.2 (unreleased)
+# hyperloom 0.2.0
+
+* Prepare for CRAN: remove the `Remotes` field and install the suite through
+  the CTTIR R-universe declared in `Additional_repositories`; update the
+  installation instructions in README and the package help page accordingly.
+* Reword the Description in complete sentences and add `cran-comments.md`.
+* Update the maintainer e-mail address to raban.heller@uni-ulm.de.
+* Includes the unreleased 0.1.2 changes listed below.
+
+# hyperloom 0.1.2 (development version, not released)
 
 * Check the installed metapackage contract during R CMD check: all four
   members must be discoverable, while loading hyperloom attaches only itself

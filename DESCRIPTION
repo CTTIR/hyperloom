@@ -1,16 +1,16 @@
 Package: hyperloom
 Type: Package
 Title: CTTIR Hyperspectral Imaging Suite
-Version: 0.1.2
-Authors@R: person("R.", "Heller", email = "raban.heller@charite.de",
+Version: 0.2.0
+Authors@R: person("R.", "Heller", email = "raban.heller@uni-ulm.de",
     role = c("aut", "cre", "cph"),
     comment = c(ORCID = "0000-0001-8006-9742"))
-Description: An installation framework for the CTTIR hyperspectral imaging
-    suite. Declares 'hyperspectR', 'hyperspectaculR', 'cuvis.r', and 'tivis.r'
-    as required dependencies so that package installers resolve and install
-    the suite and its required R dependencies. Provides no analysis functions
-    and does not attach the member packages. Instrument software and optional
-    backends are configured through the individual packages.
+Description: Provides an installation framework for the CTTIR hyperspectral
+    imaging suite. It declares 'hyperspectR', 'hyperspectaculR', 'cuvis.r' and
+    'tivis.r' as required dependencies so that package installers resolve and
+    install the suite and its required R dependencies. It provides no analysis
+    functions and does not attach the member packages. Instrument software and
+    optional backends are configured through the individual packages.
 License: MIT + file LICENSE
 URL: https://github.com/CTTIR/hyperloom
 BugReports: https://github.com/CTTIR/hyperloom/issues
@@ -21,11 +21,6 @@ Imports:
     hyperspectaculR,
     cuvis.r,
     tivis.r
-Remotes:
-    CTTIR/hyperspectR,
-    CTTIR/hyperspectaculR,
-    CTTIR/cuvis.r,
-    CTTIR/tivis.r
 Additional_repositories: https://cttir.r-universe.dev
 Encoding: UTF-8
 Language: en-US

@@ -9,20 +9,16 @@ An installation framework for \pkg{hyperspectR}, \pkg{hyperspectaculR},
 The metapackage provides no analysis functions and does not attach its members.
 }
 \details{
-Install from GitHub with
-\code{remotes::install_github("CTTIR/hyperloom", dependencies = NA)}.
+Install the suite from the CTTIR R-universe with
+\code{install.packages("hyperloom", repos = c("https://cttir.r-universe.dev",
+"https://cloud.r-project.org"))}.
 The package installer resolves required dependencies recursively using the
-repository declarations in the package metadata. Use each member package
-directly after installation; loading \pkg{hyperloom} is not required.
+\code{Additional_repositories} declaration in the package metadata. Use each
+member package directly after installation; loading \pkg{hyperloom} is not
+required.
 
-To retain installed versions that satisfy declared requirements while installing
-missing dependencies, pass \code{upgrade = "never"} to the installer.
-An installed dependency that is too old must then be updated explicitly.
-Unless \code{R_REMOTES_UPGRADE} sets another policy, the default asks
-interactively and permits updates non-interactively.
-GitHub members follow their default branches; pinning the metapackage alone
-does not pin them. Record each member's \code{Version} and, when present,
-\code{RemoteSha} with \code{utils::packageDescription()} for reproducibility.
+Pinning the metapackage alone does not pin its members. Record each member's
+\code{Version} with \code{utils::packageDescription()} for reproducibility.
 
 The Cubert CUVIS SDK is not required for a stub installation of \pkg{cuvis.r}.
 SDK-backed operations require separate SDK installation, configuration and
@@ -30,15 +26,14 @@ reinstallation of that member. Optional backends, compilers and system
 libraries are configured as described by the individual packages. Each member
 and external component retains its own license.
 
-GitHub installation is the tested distribution route. The declared R minimum
-is 4.1.0; the maintenance candidate was tested on R 4.6.1, macOS arm64.
-CRAN incoming checks report the non-CRAN members and repository metadata;
-a successful GitHub installation does not establish CRAN submission readiness.
+The declared R minimum is 4.1.0. The members are not yet on CRAN, so
+\pkg{hyperloom} can only be submitted to CRAN once all four are available
+there.
 }
 \seealso{
 \url{https://github.com/CTTIR/hyperloom}
 }
 \author{
-R. Heller \email{raban.heller@charite.de}
+R. Heller \email{raban.heller@uni-ulm.de}
 }
 \keyword{package}
