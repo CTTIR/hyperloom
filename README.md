@@ -74,7 +74,8 @@ versions
 ```
 
 `RemoteSha` is recorded by R-universe builds and by GitHub installs made with
-`remotes` or `pak`; installations from a local source tree report it as `NA`.
+`remotes` or `pak`; installing a local source tree with `R CMD INSTALL` or
+`remotes::install_local()` leaves it `NA`.
 hyperloom is not yet on CRAN: its four members are distributed through the
 CTTIR R-universe, and hyperloom can only be submitted to CRAN once all of them
 are available there.
