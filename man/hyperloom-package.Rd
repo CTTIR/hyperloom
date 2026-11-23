@@ -26,7 +26,7 @@ The Cubert CUVIS SDK is not required for a stub installation of \pkg{cuvis.r}.
 SDK-backed operations require separate SDK installation, configuration and
 reinstallation of that member. Optional backends, compilers and system
 libraries are configured as described by the individual packages. Each member
-and external component retains its own license.
+and external component retains its own licence.
 
 The declared R minimum is 4.1.0. The members are not yet on CRAN, so
 \pkg{hyperloom} can only be submitted to CRAN once all four are available

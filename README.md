@@ -10,7 +10,7 @@ required R dependencies:
 | Package | Role |
 |:--|:--|
 | [hyperspectR](https://github.com/CTTIR/hyperspectR) | Hyperspectral processing and analysis |
-| [hyperspectaculR](https://github.com/CTTIR/hyperspectaculR) | Hyperspectral visualization |
+| [hyperspectaculR](https://github.com/CTTIR/hyperspectaculR) | Hyperspectral visualisation |
 | [cuvis.r](https://github.com/CTTIR/cuvis.r) | Cubert CUVIS recordings |
 | [tivis.r](https://github.com/CTTIR/tivis.r) | TIVITA recordings |
 
@@ -80,10 +80,10 @@ hyperloom is not yet on CRAN: its four members are distributed through the
 CTTIR R-universe, and hyperloom can only be submitted to CRAN once all of them
 are available there.
 
-## License
+## Licence
 
-`hyperloom` is licensed under the [MIT license](https://github.com/CTTIR/hyperloom/blob/main/LICENSE.md). Member packages
-and external components retain their own licenses.
+`hyperloom` is licensed under the [MIT licence](https://github.com/CTTIR/hyperloom/blob/main/LICENSE.md). Member packages
+and external components retain their own licences.
 
 ## Branding
 
