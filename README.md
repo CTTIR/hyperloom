@@ -33,13 +33,14 @@ GitHub checkout also works, for example with
 `remotes::install_github("CTTIR/hyperloom", dependencies = NA)`, as long as the
 R-universe repository is reachable; `dependencies = NA` installs required R
 dependencies without requesting every optional package. Pass
-`upgrade = "never"` to retain installed versions that satisfy the declared
-requirements; an installed dependency that is too old must then be updated
-explicitly.
+`upgrade = "never"` to retain the member versions already installed: hyperloom
+declares no minimum member versions, so an older member is then kept and must
+be updated explicitly when a newer release is needed.
 
 Pinning only hyperloom does not pin its members. Record the actual versions
-(and, for GitHub installations, revisions) for a reproducible analysis, and
-use a project dependency lockfile when recreating that environment.
+(and, for R-universe or GitHub installations, revisions) for a reproducible
+analysis, and use a project dependency lockfile when recreating that
+environment.
 
 `cuvis.r` can compile in stub mode without the Cubert CUVIS SDK, allowing the
 suite to install. SDK-backed operations then remain unavailable. Install and
@@ -72,10 +73,11 @@ names(versions) <- members
 versions
 ```
 
-`RemoteSha` is available for GitHub installs made by remotes; other installation
-sources may report it as missing. hyperloom is not yet on CRAN: its four
-members are distributed through the CTTIR R-universe, and hyperloom can only
-be submitted to CRAN once all of them are available there.
+`RemoteSha` is recorded by R-universe builds and by GitHub installs made with
+`remotes` or `pak`; installations from a local source tree report it as `NA`.
+hyperloom is not yet on CRAN: its four members are distributed through the
+CTTIR R-universe, and hyperloom can only be submitted to CRAN once all of them
+are available there.
 
 ## License
 

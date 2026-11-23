@@ -17,8 +17,10 @@ The package installer resolves required dependencies recursively using the
 member package directly after installation; loading \pkg{hyperloom} is not
 required.
 
-Pinning the metapackage alone does not pin its members. Record each member's
-\code{Version} with \code{utils::packageDescription()} for reproducibility.
+Pinning the metapackage alone does not pin its members, and \pkg{hyperloom}
+declares no minimum member versions. Record each member's \code{Version} (and,
+for R-universe or GitHub installations, \code{RemoteSha}) with
+\code{utils::packageDescription()} for reproducibility.
 
 The Cubert CUVIS SDK is not required for a stub installation of \pkg{cuvis.r}.
 SDK-backed operations require separate SDK installation, configuration and
