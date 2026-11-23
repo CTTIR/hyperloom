@@ -5,6 +5,13 @@
   installation instructions in README and the package help page accordingly.
 * Reword the Description in complete sentences and add `cran-comments.md`.
 * Update the maintainer e-mail address to raban.heller@uni-ulm.de.
+* The installed-package test also checks that the suite members it inspects
+  are exactly the packages declared in `Imports`, that the README
+  version-recording snippet works without loading member namespaces, and that
+  hyperloom imports from no namespace.
+* README and the package help page now state that hyperloom declares no
+  minimum member versions (so `upgrade = "never"` keeps older members) and that
+  R-universe builds record `RemoteSha` as well as GitHub installs.
 * Includes the unreleased 0.1.2 changes listed below.
 
 # hyperloom 0.1.2 (development version, not released)
