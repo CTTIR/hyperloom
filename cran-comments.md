@@ -32,9 +32,14 @@ members have been accepted on CRAN.
     hyperspectR, hyperspectaculR, cuvis.r, tivis.r
   Availability using Additional_repositories specification: all yes
   (https://cttir.r-universe.dev)
+  Found the following (possibly) invalid URLs:
+    URL: https://doi.org/10.5281/zenodo.24426398
+      From: README.md
+      Status: 404
 
   This WARNING is the submission blocker described above; it disappears
-  once the four members are on CRAN. The ordinary checks (GitHub Actions,
+  once the four members are on CRAN. The DOI is reserved on Zenodo and
+  resolves once the record is published. The ordinary checks (GitHub Actions,
   without the incoming-feasibility step) pass with 0 errors, 0 warnings and
   0 notes.
 
