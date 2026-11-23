@@ -13,6 +13,7 @@
   minimum member versions (so `upgrade = "never"` keeps older members) and that
   R-universe builds record `RemoteSha` as well as GitHub installs.
 * The documentation uses British English (`Language: en-GB`).
+* `CITATION.cff` names the author as R. Heller.
 * Includes the unreleased 0.1.2 changes listed below.
 
 # hyperloom 0.1.2 (development version, not released)
